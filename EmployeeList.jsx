@@ -94,10 +94,10 @@ class EmployeeRow extends React.Component {
                                 <p>Are you sure you want to delete this employee?</p>
                             </Modal.Body>
                             <Modal.Footer>
-                                <Button variant="secondary" onClick={this.toggleModal}>
+                                <Button variant="danger" onClick={this.toggleModal}>
                                     Cancel
                             </Button>
-                                <Button variant="danger" onClick={this.handleDelete}>
+                                <Button variant="success" onClick={this.handleDelete}>
                                     Yes
                                 </Button>
                             </Modal.Footer>
